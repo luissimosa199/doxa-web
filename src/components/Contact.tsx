@@ -1,7 +1,15 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
 import MessageSvg from "./svg/MessageSvg";
+import { useFormStatus } from "react-dom";
+import { sendContactInfo } from "@/utils/sendContactInfo";
+import useTrackUserAgent from "@/hooks/useTrackUserAgent";
 
-const Contact = () => {
+const Contact = ({ agentCookie }: { agentCookie: string | undefined }) => {
+  useTrackUserAgent(agentCookie);
+  const { pending } = useFormStatus();
+  const formRef = useRef<HTMLFormElement | null>(null);
+
   return (
     <div
       id="contact"
@@ -25,7 +33,15 @@ const Contact = () => {
                 </p>
               </header>
 
-              <form action="#">
+              <form
+                ref={formRef}
+                action={async (formData) => {
+                  const response = await sendContactInfo(formData);
+                  if (response) {
+                    formRef.current?.reset();
+                  }
+                }}
+              >
                 <div className="flex flex-wrap flex-row -mx-4">
                   <div className="flex-shrink w-full max-w-full md:w-1/2 px-4 mb-6">
                     <label
@@ -97,7 +113,7 @@ const Contact = () => {
                     href="#project"
                   >
                     <MessageSvg />
-                    Enviar
+                    {pending ? "Enviando..." : "Enviar"}
                   </a>
                 </div>
               </form>
