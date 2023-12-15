@@ -2,14 +2,14 @@ export const clientsData = [
   {
     id: 1,
     url: "#",
-    image: "/images/logo1.png",
-    alt: "logo",
+    image: "/images/clients/ypf.png",
+    alt: "ypf logo",
   },
   {
     id: 2,
     url: "#",
-    image: "/images/logo2.png",
-    alt: "logo",
+    image: "/images/clients/pizzeria.jpg",
+    alt: "pizzeria el conde logo",
   },
   {
     id: 3,
@@ -20,7 +20,7 @@ export const clientsData = [
   {
     id: 4,
     url: "#",
-    image: "/images/logo4.png",
+    image: "/images/logo1.png",
     alt: "logo",
   },
   {
