@@ -21,10 +21,10 @@ const PortfolioCard = ({
       <div className="relative overflow-hidden cursor-pointer mb-6">
         <Link href={url}>
           <Image
-            className="block w-full h-auto transform duration-500 grayscale hover:scale-125"
+            className="block w-full h-auto transform duration-500 hover:scale-125"
             src={image}
-            width={256}
-            height={171}
+            width={640}
+            height={426}
             alt="Image Description"
           />
           <div className="absolute inset-x-0 bottom-0 h-20 transition-opacity duration-500 ease-in opacity-0 group-hover:opacity-100 overflow-hidden px-4 py-2 text-gray-100 bg-black text-center">
