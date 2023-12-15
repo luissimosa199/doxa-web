@@ -76,7 +76,7 @@ const Header = () => {
               <ul
                 className={`${
                   showMenu ? "block" : "hidden"
-                } navbar bg-white lg:bg-transparent w-full text-center lg:text-left lg:flex lg:flex-row text-gray-900 text-md items-center font-bold`}
+                } navbar bg-white lg:bg-transparent w-full text-center lg:text-left lg:flex lg:flex-row text-gray-900 text-md items-center font-bold justify-end`}
               >
                 <li className="relative hover:text-black">
                   <a
