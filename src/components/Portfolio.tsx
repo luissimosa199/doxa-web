@@ -11,11 +11,11 @@ const Portfolio = () => {
       <div className="container xl:max-w-6xl mx-auto px-4">
         <header className="text-center mx-auto mb-12 lg:px-20">
           <h2 className="text-2xl leading-normal mb-2 font-bold text-black">
-            Our work
+            Nuestro trabajo
           </h2>
 
           <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-            We create engaging experiences that are innovatingand beautiful.
+            Creando experiencias atractivas, innovadoras y exitosas.
           </p>
         </header>
       </div>

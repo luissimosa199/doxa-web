@@ -1,4 +1,5 @@
 import React from "react";
+import MessageSvg from "./svg/MessageSvg";
 
 const Contact = () => {
   return (
@@ -14,52 +15,16 @@ const Contact = () => {
               data-wow-duration="1s"
               data-wow-delay=".5s"
             >
-              {/*  section header  */}
               <header className="text-center mx-auto mb-12 lg:px-20">
                 <h2 className="text-2xl leading-normal mb-2 font-bold text-gray-800 dark:text-gray-100">
-                  <span className="font-light">Contact</span> Us
+                  Contacto
                 </h2>
-                {/* <svg
-                  version="1.1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 100 60"
-                  style="margin: 0 auto;height: 35px;"
-                  xml:space="preserve"
-                >
-                  <circle
-                    cx="50.1"
-                    cy="30.4"
-                    r="5"
-                    className="stroke-primary"
-                    style="fill: transparent;stroke-width: 2;stroke-miterlimit: 10;"
-                  ></circle>
-                  <line
-                    x1="55.1"
-                    y1="30.4"
-                    x2="100"
-                    y2="30.4"
-                    className="stroke-primary"
-                    style="stroke-width: 2;stroke-miterlimit: 10;"
-                  ></line>
-                  <line
-                    x1="45.1"
-                    y1="30.4"
-                    x2="0"
-                    y2="30.4"
-                    className="stroke-primary"
-                    style="stroke-width: 2;stroke-miterlimit: 10;"
-                  ></line>
-                </svg> */}
+
                 <p className="text-gray-600 leading-relaxed font-light text-xl mx-auto pb-2">
-                  Have questions about service, please contact us.
+                  No dudes en comunicarte para saber más
                 </p>
               </header>
-              {/*  end section header  */}
 
-              {/*  contact form  */}
               <form action="#">
                 <div className="flex flex-wrap flex-row -mx-4">
                   <div className="flex-shrink w-full max-w-full md:w-1/2 px-4 mb-6">
@@ -67,7 +32,7 @@ const Contact = () => {
                       className="inline-block mb-2"
                       htmlFor="name"
                     >
-                      Your Name
+                      Nombre
                     </label>
 
                     <input
@@ -83,7 +48,7 @@ const Contact = () => {
                       className="inline-block mb-2"
                       htmlFor="email"
                     >
-                      Your Email
+                      Email
                     </label>
 
                     <input
@@ -100,7 +65,7 @@ const Contact = () => {
                     className="inline-block mb-2"
                     htmlFor="subject"
                   >
-                    Subject
+                    Asunto
                   </label>
 
                   <input
@@ -116,7 +81,7 @@ const Contact = () => {
                     className="inline-block mb-2"
                     htmlFor="messages"
                   >
-                    Message
+                    Mensaje
                   </label>
                   <textarea
                     className="w-full leading-5 relative py-3 px-5 rounded text-gray-800 bg-white border-b border-gray-100 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
@@ -131,12 +96,11 @@ const Contact = () => {
                     className="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border border-black hover:text-white hover:ring-0 focus:outline-none focus:ring-0"
                     href="#project"
                   >
-                    {/* <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" className="inline-block mr-1" fill="currentColor" viewBox="0 0 512 512"><rect x="48" y="96" width="416" height="320" rx="40" ry="40" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><polyline points="112 160 256 272 400 160" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg> */}
-                    Send message
+                    <MessageSvg />
+                    Enviar
                   </a>
                 </div>
               </form>
-              {/*end contact form  */}
             </div>
           </div>
         </div>

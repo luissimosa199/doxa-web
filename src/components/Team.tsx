@@ -11,7 +11,7 @@ const Team = () => {
       <div className="container xl:max-w-6xl mx-auto px-4">
         <header className="text-center mx-auto mb-12">
           <h2 className="text-2xl leading-normal mb-2 font-bold text-gray-800 dark:text-gray-100">
-            <span className="font-light">Our</span> Team
+            <span className="font-light">Nuestro</span> equipo
           </h2>
         </header>
 

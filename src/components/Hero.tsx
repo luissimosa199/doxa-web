@@ -23,17 +23,17 @@ const Hero = () => {
             <div className="text-center lg:text-left mt-6 lg:mt-0">
               <div className="mb-12">
                 <h1 className="text-4xl leading-normal text-black font-bold mb-4">
-                  We are a Digital Agency
+                  Este sería un
                   <br />
-                  serve{" "}
+                  subtitulo
                   <span
                     data-toggle="typed"
                     data-options='{"strings": ["Online Marketing", "Web Design", "Mobile Apps", "Brand Identity", "Social Content"]}'
                   ></span>
                 </h1>
                 <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-                  We would direct you to limitless ideas and move your brand
-                  into a global landscape.
+                  Acá un slogan o frase un poco más larga, de alrededor de 80
+                  caracteres al menos.
                 </p>
               </div>
               <a
@@ -41,7 +41,7 @@ const Hero = () => {
                 href="#portfolio"
               >
                 <LightBulbSvg />
-                Our Work
+                Proyectos
               </a>
 
               <a
@@ -50,7 +50,7 @@ const Hero = () => {
                 href="https://aribudin.gumroad.com/l/tailone"
               >
                 <MessageSvg />
-                Download Now
+                Contactanos!
               </a>
             </div>
           </div>

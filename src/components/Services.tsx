@@ -11,10 +11,10 @@ const Services = () => {
       <div className="container xl:max-w-6xl mx-auto px-4">
         <header className="text-center mx-auto mb-12 lg:px-20">
           <h2 className="text-2xl leading-normal mb-2 font-bold text-black">
-            What We Do
+            Nuestros servicios
           </h2>
           <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-            Save time managing advertising & Content for your business.
+            Nos destacamos en diversas áreas del desarrollo
           </p>
         </header>
 

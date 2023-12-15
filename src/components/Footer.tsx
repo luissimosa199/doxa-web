@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -12,15 +14,18 @@ const Footer = () => {
           <div className="flex flex-wrap flex-row lg:justify-between -mx-3">
             <div className="flex-shrink max-w-full w-full lg:w-2/5 px-3 lg:pr-16">
               <div className="flex items-center mb-2">
-                <span className="text-3xl leading-normal mb-2 font-bold text-gray-800 mt-2">
-                  Tailone
-                </span>
-                <img
-                  src="images/logo.png"
+                <Image
+                  width={40}
+                  height={40}
+                  src="/images/logo.png"
                   alt="LOGO"
+                  className="mr-2 shadow-md"
                 />
+                <span className="text-3xl leading-normal mb-2 font-bold text-gray-800 mt-2">
+                  Nombre
+                </span>
               </div>
-              <p>Tailwind One Page Template for build One page landing page.</p>
+              <p>Párrafo breve o slogan de 60 caracteres aproximadamente.</p>
               <ul className="space-x-3 mt-6 mb-6 Lg:mb-0">
                 {/* facebook */}
                 <li className="inline-block">
@@ -92,6 +97,7 @@ const Footer = () => {
                   </a>
                 </li>
 
+                {/* instagram */}
                 <li className="inline-block">
                   <a
                     target="_blank"
@@ -122,46 +128,48 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-                {/* end instagram */}
               </ul>
             </div>
             <div className="flex-shrink max-w-full w-full lg:w-3/5 px-3">
               <div className="flex flex-wrap flex-row">
                 <div className="flex-shrink max-w-full w-1/2 md:w-1/3 mb-6 lg:mb-0">
                   <h4 className="text-base leading-normal mb-3 uppercase text-gray-800">
-                    Support
+                    Lista 1
                   </h4>
                   <ul>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="docs/index.html">Documentation</a>
+                      <Link href="">Elemento 1</Link>
                     </li>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="docs/components.html">Components</a>
+                      <Link href="">Elemento 2</Link>
                     </li>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="docs/credits.html">Credits</a>
+                      <Link href="">Elemento 3</Link>
                     </li>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="docs/changelogs.html">Changelog</a>
+                      <Link href="">Elemento 4</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="flex-shrink max-w-full w-1/2 md:w-1/3 mb-6 lg:mb-0">
                   <h4 className="text-base leading-normal mb-3 uppercase text-gray-800">
-                    Includes
+                    Secciones
                   </h4>
                   <ul>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="#">Tailwind Css</a>
+                      <Link href="#services">Servicios</Link>
                     </li>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="#">Javascript</a>
+                      <Link href="#portfolio">Proyectos</Link>
                     </li>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="#">Vendors Js</a>
+                      <Link href="#clients">Clientes</Link>
                     </li>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="#">Build System</a>
+                      <Link href="#team">Equipo</Link>
+                    </li>
+                    <li className="py-1 hover:text-gray-900">
+                      <Link href="#contact">Contacto</Link>
                     </li>
                   </ul>
                 </div>
@@ -171,16 +179,10 @@ const Footer = () => {
                   </h4>
                   <ul>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="#">Privacy Policy</a>
+                      <Link href="#">Politica de Privacidad</Link>
                     </li>
                     <li className="py-1 hover:text-gray-900">
-                      <a href="#">Terms of Use</a>
-                    </li>
-                    <li className="py-1 hover:text-gray-900">
-                      <a href="#">License</a>
-                    </li>
-                    <li className="py-1 hover:text-gray-900">
-                      <a href="#">GDPR</a>
+                      <Link href="#">Terminos de uso</Link>
                     </li>
                   </ul>
                 </div>
@@ -195,7 +197,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-12 col-md text-center">
               <p className="d-block my-3">
-                Copyright © Your Company | All rights reserved.
+                Copyright © Nombre | Todos los derechos reservados.
               </p>
             </div>
           </div>

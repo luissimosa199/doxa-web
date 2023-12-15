@@ -16,13 +16,13 @@ const Header = () => {
   }, [path]);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-40">
+    <header className="fixed top-0 left-0 right-0 z-40 bg-white">
       <nav className="main-nav">
         <div className="container xl:max-w-6xl mx-auto px-4">
           <div className="lg:flex lg:justify-between">
             <div className="flex justify-between">
               <div className="mx-w-10 text-4xl font-bold capitalize text-gray-900 flex items-center">
-                Tailone
+                Nombre
               </div>
 
               <div className="flex flex-row items-center py-4 lg:py-0">
@@ -32,7 +32,6 @@ const Header = () => {
                     type="button"
                     className="menu-mobile block py-3 px-6 border-b-2 border-transparent"
                   >
-                    <span className="sr-only">Mobile menu</span>
                     {showMenu ? (
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +83,7 @@ const Header = () => {
                     className="active block py-3 lg:py-7 px-6 border-b-2 border-transparent"
                     href="#hero"
                   >
-                    Home
+                    Inicio
                   </a>
                 </li>
                 <li className="relative hover:text-black">
@@ -92,7 +91,7 @@ const Header = () => {
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
                     href="#services"
                   >
-                    What we do
+                    Servicios
                   </a>
                 </li>
                 <li className="relative hover:text-black">
@@ -100,7 +99,7 @@ const Header = () => {
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
                     href="#portfolio"
                   >
-                    Our works
+                    Proyectos
                   </a>
                 </li>
                 <li className="relative hover:text-black">
@@ -108,7 +107,7 @@ const Header = () => {
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
                     href="#clients"
                   >
-                    Clients
+                    Clientes
                   </a>
                 </li>
                 <li className="relative hover:text-black">
@@ -116,7 +115,7 @@ const Header = () => {
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
                     href="#team"
                   >
-                    Team
+                    Equipo
                   </a>
                 </li>
                 <li className="relative hover:text-black">
@@ -124,7 +123,7 @@ const Header = () => {
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
                     href="#contact"
                   >
-                    Contact
+                    Contacto
                   </a>
                 </li>
               </ul>
