@@ -29,7 +29,7 @@ const Portfolio = () => {
                 image={e.image}
                 title={e.title}
                 subtitle={e.subtitle}
-                url={e.url}
+                url={e.slug}
               />
             );
           })}

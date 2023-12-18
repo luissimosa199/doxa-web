@@ -5,6 +5,8 @@ export const portfolioData = [
     title: "La Estación de la Chipa",
     subtitle: "Las mejores de Corrientes",
     url: "https://chipas-web.vercel.app/",
+    slug: "chipas",
+    photos: ["/images/projects/chipas/1.png"],
   },
   {
     id: 2,
@@ -12,6 +14,8 @@ export const portfolioData = [
     title: "Monitor Mercado Pago",
     subtitle: "Control de pagos",
     url: "#",
+    slug: "mp-monitor",
+    photos: ["/images/projects/mp-monitor/1.png"],
   },
   {
     id: 3,
@@ -19,6 +23,11 @@ export const portfolioData = [
     title: "Asistente Virtual",
     subtitle: "Impulsado por Inteligencia Artifical",
     url: "#",
+    slug: "wsassistant",
+    photos: [
+      "/images/projects/wsassistant/1.png",
+      "/images/projects/wsassistant/2.png",
+    ],
   },
   {
     id: 4,
@@ -26,6 +35,11 @@ export const portfolioData = [
     title: "Doxa Flats",
     subtitle: "Rentals en Buenos Aires",
     url: "https://flats.doxadoctor.com/properties",
+    slug: "flats-doxadoctor",
+    photos: [
+      "/images/projects/doxa-flats/1.png",
+      "/images/projects/doxa-flats/2.png",
+    ],
   },
   {
     id: 5,
@@ -33,6 +47,8 @@ export const portfolioData = [
     title: "Social Poster",
     subtitle: "Publicación automatica en redes sociales",
     url: "https://post-poster.vercel.app/",
+    slug: "post-poster",
+    photos: ["/images/projects/post-poster/1.png"],
   },
   {
     id: 6,
@@ -40,6 +56,8 @@ export const portfolioData = [
     title: "Doxadoctor",
     subtitle: "Directorio Médico para AR, UY y MX",
     url: "https://www.doxadoctor.com/",
+    slug: "doxadoctor",
+    photos: ["/images/projects/doxadoctor/1.png"],
   },
   {
     id: 7,
@@ -47,6 +65,8 @@ export const portfolioData = [
     title: "Doxa Panel",
     subtitle: "Herramientas para profesionales de la salud",
     url: "https://panel.doxadoctor.com/",
+    slug: "doxa-panel",
+    photos: ["/images/projects/doxa-panel/1.png"],
   },
   {
     id: 8,
@@ -54,6 +74,8 @@ export const portfolioData = [
     title: "Doxa Blog",
     subtitle: "Blog con IA",
     url: "https://notas.doxadoctor.com/",
+    slug: "notas-doxadoctor",
+    photos: ["/images/projects/doxa-blog/1.png"],
   },
   {
     id: 9,
@@ -61,6 +83,8 @@ export const portfolioData = [
     title: "Pizzeria El Conde",
     subtitle: "Sistema de pedidos para restaurante",
     url: "#",
+    slug: "pizzeria-el-conde",
+    photos: [],
   },
   {
     id: 10,
@@ -68,6 +92,8 @@ export const portfolioData = [
     title: "Faulix",
     subtitle: "Rentals",
     url: "https://www.faulix.com/",
+    slug: "faulix",
+    photos: ["/images/projects/faulix/1.png"],
   },
   {
     id: 11,
@@ -75,6 +101,8 @@ export const portfolioData = [
     title: "Bikebook",
     subtitle: "Red Social para ciclistas",
     url: "https://bikebook.pro/",
+    slug: "bikebook",
+    photos: ["/images/projects/bikebook/1.png"],
   },
   {
     id: 12,
@@ -82,6 +110,8 @@ export const portfolioData = [
     title: "Runnerbook",
     subtitle: "Red Social para runners",
     url: "https://runnerbook.pro/",
+    slug: "runnerbook",
+    photos: ["/images/projects/runnerbook/1.png"],
   },
   {
     id: 13,
@@ -89,5 +119,7 @@ export const portfolioData = [
     title: "Contactos",
     subtitle: "Red Social",
     url: "https://contactos.doxadoctor.com/",
+    slug: "contactos",
+    photos: ["/images/projects/contactos/1.png"],
   },
 ];

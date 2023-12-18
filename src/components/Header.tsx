@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
@@ -79,52 +80,52 @@ const Header = () => {
                 } navbar bg-white lg:bg-transparent w-full text-center lg:text-left lg:flex lg:flex-row text-gray-900 text-md items-center font-bold justify-end`}
               >
                 <li className="relative hover:text-black">
-                  <a
+                  <Link
                     className="active block py-3 lg:py-7 px-6 border-b-2 border-transparent"
-                    href="#hero"
+                    href="/#hero"
                   >
                     Inicio
-                  </a>
+                  </Link>
                 </li>
                 <li className="relative hover:text-black">
-                  <a
+                  <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
-                    href="#services"
+                    href="/#services"
                   >
                     Servicios
-                  </a>
+                  </Link>
                 </li>
                 <li className="relative hover:text-black">
-                  <a
+                  <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
-                    href="#portfolio"
+                    href="/#portfolio"
                   >
                     Proyectos
-                  </a>
+                  </Link>
                 </li>
                 <li className="relative hover:text-black">
-                  <a
+                  <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
-                    href="#clients"
+                    href="/#clients"
                   >
                     Clientes
-                  </a>
+                  </Link>
                 </li>
                 <li className="relative hover:text-black">
-                  <a
+                  <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
-                    href="#team"
+                    href="/#team"
                   >
                     Equipo
-                  </a>
+                  </Link>
                 </li>
                 <li className="relative hover:text-black">
-                  <a
+                  <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
-                    href="#contact"
+                    href="/#contact"
                   >
                     Contacto
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

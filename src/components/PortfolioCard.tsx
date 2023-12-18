@@ -19,11 +19,7 @@ const PortfolioCard = ({
       data-wow-duration="1s"
     >
       <div className="relative overflow-hidden cursor-pointer mb-6">
-        <Link
-          href={url}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
+        <Link href={url}>
           <Image
             className="block w-full h-auto transform duration-500 hover:scale-125"
             src={image}
