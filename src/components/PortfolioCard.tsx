@@ -27,8 +27,8 @@ const PortfolioCard = ({
             height={426}
             alt="Image Description"
           />
-          <div className="absolute inset-x-0 bottom-0 h-20 transition-opacity duration-500 ease-in opacity-0 group-hover:opacity-100 overflow-hidden px-4 py-2 text-gray-100 bg-black text-center">
-            <h3 className="text-base leading-normal font-semibold my-1 text-white">
+          <div className="absolute inset-x-0 bottom-0 h-20 transition-opacity duration-500 ease-in opacity-100 sm:opacity-0 sm:group-hover:opacity-100 overflow-hidden px-1 py-1 text-gray-100 bg-gradient-to-b from-transparent to-black sm:bg-black text-center flex flex-col justify-around">
+            <h3 className="text-base leading-normal font-semibold text-white">
               {title}
             </h3>
             <small className="d-block">{subtitle}</small>

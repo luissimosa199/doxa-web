@@ -23,7 +23,7 @@ const Clients = () => {
               className=""
             >
               <div className="">
-                <div className="flex flex-wrap grayscale">
+                <div className="flex justify-between flex-wrap grayscale">
                   {clientsData &&
                     clientsData.map((e) => {
                       return (

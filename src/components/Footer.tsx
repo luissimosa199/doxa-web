@@ -14,15 +14,15 @@ const Footer = () => {
           <div className="flex flex-wrap flex-row lg:justify-between -mx-3">
             <div className="flex-shrink max-w-full w-full lg:w-2/5 px-3 lg:pr-16">
               <div className="flex items-center mb-2">
-                <Image
+                {/* <Image
                   width={40}
                   height={40}
                   src="/images/logo.png"
                   alt="LOGO"
                   className="mr-2 shadow-md"
-                />
+                /> */}
                 <span className="text-3xl leading-normal mb-2 font-bold text-gray-800 mt-2">
-                  Nombre
+                  Faulix Software
                 </span>
               </div>
               <p>Párrafo breve o slogan de 60 caracteres aproximadamente.</p>
@@ -132,7 +132,7 @@ const Footer = () => {
             </div>
             <div className="flex-shrink max-w-full w-full lg:w-3/5 px-3">
               <div className="flex flex-wrap flex-row">
-                <div className="flex-shrink max-w-full w-1/2 md:w-1/3 mb-6 lg:mb-0">
+                {/* <div className="flex-shrink max-w-full w-1/2 md:w-1/3 mb-6 lg:mb-0">
                   <h4 className="text-base leading-normal mb-3 uppercase text-gray-800">
                     Lista 1
                   </h4>
@@ -150,7 +150,7 @@ const Footer = () => {
                       <Link href="">Elemento 4</Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="flex-shrink max-w-full w-1/2 md:w-1/3 mb-6 lg:mb-0">
                   <h4 className="text-base leading-normal mb-3 uppercase text-gray-800">
                     Secciones
