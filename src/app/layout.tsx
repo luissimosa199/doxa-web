@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fulix Software",
+  title: "Faulix Software",
   description: "Soluciones digitales",
 };
 
