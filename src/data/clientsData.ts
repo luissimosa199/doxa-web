@@ -35,16 +35,34 @@ export const clientsData = [
     image: "/images/clients/mercadopago.jpg",
     alt: "mercadopago logo",
   },
-  // {
-  //   id: 7,
-  //   url: "#",
-  //   image: "/images/logo7.png",
-  //   alt: "logo",
-  // },
-  // {
-  //   id: 8,
-  //   url: "#",
-  //   image: "/images/logo8.png",
-  //   alt: "logo",
-  // },
+  {
+    id: 7,
+    url: "#",
+    image: "/images/clients/victorpodesta.png",
+    alt: "victor podesta logo",
+  },
+  {
+    id: 8,
+    url: "#",
+    image: "/images/clients/bosques.png",
+    alt: "logo",
+  },
+  {
+    id: 9,
+    url: "#",
+    image: "/images/clients/beconnected.png",
+    alt: "logo",
+  },
+  {
+    id: 10,
+    url: "#",
+    image: "/images/clients/betfriend.png",
+    alt: "logo",
+  },
+  {
+    id: 11,
+    url: "#",
+    image: "/images/clients/hectorjulian.jpeg",
+    alt: "logo",
+  },
 ];

@@ -1,20 +1,11 @@
 export const portfolioData = [
   {
-    id: 1,
-    image: "/images/projects/chipas.jpg",
-    title: "La Estación de la Chipa",
-    subtitle: "Las mejores de Corrientes",
-    url: "https://chipas-web.vercel.app/",
-    slug: "chipas",
-    photos: ["/images/projects/chipas/1.png"],
-  },
-  {
     id: 2,
-    image: "/images/projects/mp-monitor.jpg",
-    title: "Monitor Mercado Pago",
-    subtitle: "Control de pagos",
+    image: "/images/projects/ypf.png",
+    title: "YPF",
+    subtitle: "YPF",
     url: "#",
-    slug: "mp-monitor",
+    slug: "#",
     photos: ["/images/projects/mp-monitor/1.png"],
   },
   {
@@ -49,6 +40,15 @@ export const portfolioData = [
     url: "https://post-poster.vercel.app/",
     slug: "post-poster",
     photos: ["/images/projects/post-poster/1.png"],
+  },
+  {
+    id: 1,
+    image: "/images/projects/chipas.png",
+    title: "La Estación de la Chipa",
+    subtitle: "Las mejores de Corrientes",
+    url: "https://chipas-web.vercel.app/",
+    slug: "chipas",
+    photos: ["/images/projects/chipas/1.png"],
   },
   {
     id: 6,
@@ -120,6 +120,6 @@ export const portfolioData = [
     subtitle: "Red Social",
     url: "https://contactos.doxadoctor.com/",
     slug: "contactos",
-    photos: ["/images/projects/contactos/1.png"],
+    photos: ["/images/projects/contactos/1.jpg"],
   },
 ];

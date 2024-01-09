@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ClientLogo from "./ClientLogo";
 import { clientsData } from "@/data/clientsData";
 
@@ -19,11 +19,11 @@ const Clients = () => {
         <div className="flex-wrap flex-row -mx-4 justify-center">
           <div className="w-full px-4">
             <div
-              id="post-carousel"
-              className="overflow-x-scroll scrollbar"
+              id=""
+              className=""
             >
               <div className="">
-                <div className="flex grayscale">
+                <div className="flex flex-wrap grayscale">
                   {clientsData &&
                     clientsData.map((e) => {
                       return (
