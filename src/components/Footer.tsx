@@ -29,8 +29,8 @@ const Footer = () => {
                 Transformamos pymes con desarrollo de software innovador y
                 personalizado.
               </p>
-              <ul className="space-x-3 mt-6 mb-6 Lg:mb-0">
-                {/* facebook */}
+              {/* <ul className="space-x-3 mt-6 mb-6 Lg:mb-0">
+                
                 <li className="inline-block">
                   <a
                     target="_blank"
@@ -53,7 +53,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-                {/* twitter */}
+                
                 <li className="inline-block">
                   <a
                     target="_blank"
@@ -76,7 +76,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-                {/* youtube */}
+                
                 <li className="inline-block">
                   <a
                     target="_blank"
@@ -100,7 +100,7 @@ const Footer = () => {
                   </a>
                 </li>
 
-                {/* instagram */}
+                
                 <li className="inline-block">
                   <a
                     target="_blank"
@@ -131,7 +131,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div className="flex-shrink max-w-full w-full lg:w-3/5 px-3 ">
               <div className="flex flex-wrap flex-row sm:justify-end">
