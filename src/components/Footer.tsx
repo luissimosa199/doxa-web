@@ -165,9 +165,9 @@ const Footer = () => {
                     <li className="py-1 hover:text-gray-900">
                       <Link href="#clients">Clientes</Link>
                     </li>
-                    {/* <li className="py-1 hover:text-gray-900">
+                    <li className="py-1 hover:text-gray-900">
                       <Link href="#team">Equipo</Link>
-                    </li> */}
+                    </li>
                     <li className="py-1 hover:text-gray-900">
                       <Link href="#contact">Contacto</Link>
                     </li>

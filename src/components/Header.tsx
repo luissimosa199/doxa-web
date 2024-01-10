@@ -111,14 +111,14 @@ const Header = () => {
                     Clientes
                   </Link>
                 </li>
-                {/* <li className="relative hover:text-black">
+                <li className="relative hover:text-black">
                   <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
                     href="/#team"
                   >
                     Equipo
                   </Link>
-                </li> */}
+                </li>
                 <li className="relative hover:text-black">
                   <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"

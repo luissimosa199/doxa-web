@@ -24,13 +24,13 @@ const Hero = () => {
             <div className="text-center lg:text-left mt-6 lg:mt-0">
               <div className="mb-12">
                 <h1 className="text-4xl leading-normal text-black font-bold mb-4">
-                  Este sería un
+                  Soluciones Digitales
                   <br />
-                  subtitulo
+                  Personalizadas
                 </h1>
                 <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-                  Acá un slogan o frase un poco más larga, de alrededor de 80
-                  caracteres al menos.
+                  Transformamos pymes con desarrollo de software innovador y
+                  personalizado.
                 </p>
               </div>
               <Link

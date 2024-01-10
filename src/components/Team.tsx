@@ -15,19 +15,11 @@ const Team = () => {
           </h2>
         </header>
 
-        <div className="flex flex-wrap flex-row -mx-4 justify-center">
-          {teamData &&
-            teamData.map((e) => {
-              return (
-                <TeamMember
-                  key={e.id}
-                  name={e.name}
-                  image={e.image}
-                  position={e.position}
-                  links={e.links}
-                />
-              );
-            })}
+        <div className="flex flex-wrap flex-row my-4 -mx-4 justify-center">
+          <p className="text-3xl font-semibold text-center mx-8">
+            Somos un equipo de programadores, diseñadores y desarrolladores de
+            software especializado conmmás de 30 años de experiencia
+          </p>
         </div>
       </div>
     </div>

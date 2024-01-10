@@ -1,15 +1,6 @@
 export const portfolioData = [
   {
     id: 1,
-    image: "/images/projects/chipas.png",
-    title: "La Estación de la Chipa",
-    subtitle: "Las mejores de Corrientes",
-    url: "https://chipas-web.vercel.app/",
-    slug: "chipas",
-    photos: ["/images/projects/chipas/1.png"],
-  },
-  {
-    id: 2,
     image: "/images/projects/ypf.png",
     title: "YPF",
     subtitle: "YPF",
@@ -18,7 +9,7 @@ export const portfolioData = [
     photos: [],
   },
   {
-    id: 3,
+    id: 2,
     image: "/images/projects/wsassistant.png",
     title: "Asistente Virtual",
     subtitle: "Impulsado por Inteligencia Artifical",
@@ -30,7 +21,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     image: "/images/projects/deptos.jpg",
     title: "Doxa Flats",
     subtitle: "Rentals en Buenos Aires",
@@ -40,6 +31,15 @@ export const portfolioData = [
       "/images/projects/doxa-flats/1.png",
       "/images/projects/doxa-flats/2.png",
     ],
+  },
+  {
+    id: 4,
+    image: "/images/projects/chipas.png",
+    title: "La Estación de la Chipa",
+    subtitle: "Las mejores de Corrientes",
+    url: "https://chipas-web.vercel.app/",
+    slug: "chipas",
+    photos: ["/images/projects/chipas/1.png"],
   },
   {
     id: 5,
@@ -126,12 +126,11 @@ export const portfolioData = [
     slug: "contactos",
     photos: ["/images/projects/contactos/1.jpg"],
   },
-
   {
     id: 14,
     image: "/images/projects/ambucare.jpeg",
     title: "Ambu Care",
-    subtitle: "",
+    subtitle: "Sistema de pedidos de ambulancias",
     url: "",
     slug: "ambu-care",
     photos: [],

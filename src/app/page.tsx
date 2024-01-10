@@ -15,7 +15,7 @@ export default function Home() {
       <Services />
       <Portfolio />
       <Clients />
-      {/* <Team /> */}
+      <Team />
       <Contact agentCookie={agentCookie} />
     </main>
   );
