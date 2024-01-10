@@ -25,7 +25,10 @@ const Footer = () => {
                   Faulix Software
                 </span>
               </div>
-              <p>Párrafo breve o slogan de 60 caracteres aproximadamente.</p>
+              <p>
+                Transformamos pymes con desarrollo de software innovador y
+                personalizado.
+              </p>
               <ul className="space-x-3 mt-6 mb-6 Lg:mb-0">
                 {/* facebook */}
                 <li className="inline-block">

@@ -9,16 +9,17 @@ const Page = ({ params }: { params: { project: string } }) => {
   return (
     <div
       id="hero"
-      className="section relative z-0 py-16 md:pt-32 md:pb-20 bg-gray-50"
+      className="section relative z-0 pt-24 md:pt-32 md:pb-12 bg-gray-50"
     >
       <div className="container xl:max-w-6xl mx-auto px-4">
         <div className="flex flex-wrap flex-row -mx-4 justify-center">
-          <div className="flex-shrink max-w-full px-4 sm:px-12 lg:px-18 w-full sm:w-9/12 lg:w-1/2 self-center">
+          <div className="flex-shrinkmax-w-full px-4 sm:px-12 lg:px-18 w-full sm:w-9/12 lg:w-1/2 self-center">
             <Image
               width={480}
               height={362}
               src={data?.image as string}
               alt="main image"
+              className="mx-auto"
             />
           </div>
           <div className="flex-shrink max-w-full px-4 w-full md:w-9/12 lg:w-1/2 self-center lg:pr-12">
@@ -46,7 +47,7 @@ const Page = ({ params }: { params: { project: string } }) => {
         </div>
       </div>
 
-      <div className="w-full min-h-screen">
+      <div className="w-full">
         {data &&
           data.photos.length > 0 &&
           data?.photos.map((e, idx) => {

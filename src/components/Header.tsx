@@ -22,7 +22,7 @@ const Header = () => {
         <div className="container xl:max-w-6xl mx-auto px-4">
           <div className="lg:flex lg:justify-between">
             <div className="flex justify-between">
-              <div className="mx-w-10 text-4xl font-bold capitalize text-gray-900 flex items-center">
+              <div className="w-full text-2xl font-bold text-gray-900 break-normal flex items-center ">
                 Sistemas a su medida
               </div>
 
@@ -73,7 +73,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="flex flex-row absolute w-full left-0 lg:static">
+            <div className="flex flex-row absolute w-fit left-0 lg:static">
               <ul
                 className={`${
                   showMenu ? "block" : "hidden"
