@@ -130,8 +130,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex-shrink max-w-full w-full lg:w-3/5 px-3">
-              <div className="flex flex-wrap flex-row">
+            <div className="flex-shrink max-w-full w-full lg:w-3/5 px-3 ">
+              <div className="flex flex-wrap flex-row sm:justify-end">
                 {/* <div className="flex-shrink max-w-full w-1/2 md:w-1/3 mb-6 lg:mb-0">
                   <h4 className="text-base leading-normal mb-3 uppercase text-gray-800">
                     Lista 1
@@ -165,15 +165,15 @@ const Footer = () => {
                     <li className="py-1 hover:text-gray-900">
                       <Link href="#clients">Clientes</Link>
                     </li>
-                    <li className="py-1 hover:text-gray-900">
+                    {/* <li className="py-1 hover:text-gray-900">
                       <Link href="#team">Equipo</Link>
-                    </li>
+                    </li> */}
                     <li className="py-1 hover:text-gray-900">
                       <Link href="#contact">Contacto</Link>
                     </li>
                   </ul>
                 </div>
-                <div className="flex-shrink max-w-full w-1/2 md:w-1/3 mb-6 lg:mb-0">
+                {/* <div className="flex-shrink max-w-full w-1/2 md:w-1/3 mb-6 lg:mb-0">
                   <h4 className="text-base leading-normal mb-3 uppercase text-gray-800">
                     Legal
                   </h4>
@@ -185,7 +185,7 @@ const Footer = () => {
                       <Link href="#">Terminos de uso</Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -197,7 +197,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-12 col-md text-center">
               <p className="d-block my-3">
-                Copyright © Nombre | Todos los derechos reservados.
+                Copyright © Faulix Software | Todos los derechos reservados.
               </p>
             </div>
           </div>

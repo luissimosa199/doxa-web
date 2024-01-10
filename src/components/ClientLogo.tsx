@@ -13,18 +13,13 @@ const ClientLogo = ({
   return (
     <div className="min-w-max ">
       <div className="w-full px-4 text-center pb-3">
-        <a
-          href={url}
-          target="_blank"
-        >
-          <Image
-            width={135}
-            height={67}
-            className="grayscale mx-auto opacity-80 hover:opacity-100 max-w-full h-auto"
-            src={image}
-            alt={alt}
-          />
-        </a>
+        <Image
+          width={135}
+          height={67}
+          className="grayscale mx-auto opacity-80 hover:opacity-100 max-w-full h-auto"
+          src={image}
+          alt={alt}
+        />
       </div>
     </div>
   );

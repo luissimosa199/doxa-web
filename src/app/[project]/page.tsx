@@ -31,36 +31,40 @@ const Page = ({ params }: { params: { project: string } }) => {
                   {data?.subtitle}
                 </p>
               </div>
-              <Link
-                className="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border-b border-gray-800 hover:text-white hover:ring-0 focus:outline-none focus:ring-0"
-                href={data?.url as string}
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Ir a la web
-              </Link>
+              {data?.url && (
+                <Link
+                  className="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border-b border-gray-800 hover:text-white hover:ring-0 focus:outline-none focus:ring-0"
+                  href={data?.url as string}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Ir a la web
+                </Link>
+              )}
             </div>
           </div>
         </div>
       </div>
 
       <div className="w-full min-h-screen">
-        {data?.photos.map((e, idx) => {
-          return (
-            <div
-              key={`${data.id}_${idx}`}
-              className="w-full h-auto mt-12"
-            >
-              <Image
-                src={e}
-                alt=""
-                className="mx-auto"
-                width={800}
-                height={800}
-              />
-            </div>
-          );
-        })}
+        {data &&
+          data.photos.length > 0 &&
+          data?.photos.map((e, idx) => {
+            return (
+              <div
+                key={`${data.id}_${idx}`}
+                className="w-full h-auto mt-12"
+              >
+                <Image
+                  src={e}
+                  alt=""
+                  className="mx-auto"
+                  width={800}
+                  height={800}
+                />
+              </div>
+            );
+          })}
       </div>
     </div>
   );

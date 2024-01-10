@@ -23,7 +23,7 @@ const Header = () => {
           <div className="lg:flex lg:justify-between">
             <div className="flex justify-between">
               <div className="mx-w-10 text-4xl font-bold capitalize text-gray-900 flex items-center">
-                Faulix Software
+                Sistemas a su medida
               </div>
 
               <div className="flex flex-row items-center py-4 lg:py-0">
@@ -111,14 +111,14 @@ const Header = () => {
                     Clientes
                   </Link>
                 </li>
-                <li className="relative hover:text-black">
+                {/* <li className="relative hover:text-black">
                   <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"
                     href="/#team"
                   >
                     Equipo
                   </Link>
-                </li>
+                </li> */}
                 <li className="relative hover:text-black">
                   <Link
                     className="block py-3 lg:py-7 px-6 border-b-2 border-transparent"

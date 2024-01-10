@@ -8,8 +8,9 @@ import WrenchSvg from "@/components/svg/WrenchSvg";
 export const servicesData = [
   {
     id: 1,
-    title: "Diseño y Desarrollo de Sitios Web",
-    subtitle: "Sitios web personalizados, SEO y diseño responsivo para PYMES.",
+    title: "Desarrollo de software a medida",
+    subtitle:
+      "Creamos aplicaciones Android, IOS y software a la medida de sus necesidades.",
     Icon: GlobeSvg,
   },
   {
