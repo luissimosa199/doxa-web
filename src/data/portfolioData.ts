@@ -89,8 +89,8 @@ export const portfolioData = [
   {
     id: 10,
     image: "/images/projects/faulix.jpg",
-    title: "Faulix Rent",
-    subtitle: "Rentals",
+    title: "Flatsba Apartments",
+    subtitle: "Rentals in Buenos Aires",
     url: "",
     slug: "faulix",
     photos: [

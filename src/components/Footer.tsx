@@ -26,7 +26,7 @@ const Footer = () => {
                 </span>
               </div>
               <p>
-                Transformamos pymes con desarrollo de software innovador y
+                Transformamos empresas con desarrollo de software innovador y
                 personalizado.
               </p>
               {/* <ul className="space-x-3 mt-6 mb-6 Lg:mb-0">

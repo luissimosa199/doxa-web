@@ -29,7 +29,7 @@ const Hero = () => {
                   Personalizadas
                 </h1>
                 <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-                  Transformamos pymes con desarrollo de software innovador y
+                  Transformamos empresas con desarrollo de software innovador y
                   personalizado.
                 </p>
               </div>
