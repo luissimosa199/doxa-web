@@ -16,7 +16,7 @@ const Hero = () => {
             <Image
               width={480}
               height={362}
-              src="images/hero.svg"
+              src="/images/hero.jpeg"
               alt="LOGO"
             />
           </div>
