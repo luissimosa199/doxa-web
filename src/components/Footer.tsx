@@ -12,7 +12,7 @@ const Footer = () => {
       >
         <div className="container xl:max-w-6xl mx-auto px-4 overflow-hidden">
           <div className="flex flex-wrap flex-row lg:justify-between -mx-3">
-            <div className="flex-shrink max-w-full w-full lg:w-2/5 px-3 lg:pr-16">
+            <div className="flex-shrink max-w-full w-full mb-4 lg:w-2/5 px-3 lg:pr-16">
               <div className="flex items-center mb-2">
                 {/* <Image
                   width={40}
