@@ -24,12 +24,6 @@ export const clientsData = [
     alt: "chat gpt logo",
   },
   {
-    id: 5,
-    url: "#",
-    image: "/images/clients/carlosgardenal.png",
-    alt: "distribuidora carlos gardel",
-  },
-  {
     id: 6,
     url: "#",
     image: "/images/clients/mercadopago.jpg",
@@ -74,7 +68,7 @@ export const clientsData = [
   {
     id: 12,
     url: "#",
-    image: "/images/clients/carlosgardel.png",
+    image: "/images/clients/carlosgardenal.png",
     alt: "carlos gardel logo",
   },
 ];
