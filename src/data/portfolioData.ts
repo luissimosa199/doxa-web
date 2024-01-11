@@ -79,9 +79,9 @@ export const portfolioData = [
   },
   {
     id: 9,
-    image: "/images/projects/pizzeria.jpg",
-    title: "Pizzeria El Conde",
-    subtitle: "Sistema de pedidos para restaurante con inteligencia artifical por whatsapp",
+    image: "/images/projects/pizzeria.png",
+    title: "Sistema de Pedidos con IA",
+    subtitle: "Sistema de pedidos con inteligencia artifical por whatsapp",
     url: "",
     slug: "pizzeria-el-conde",
     photos: [],
