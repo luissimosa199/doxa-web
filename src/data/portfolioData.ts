@@ -189,4 +189,13 @@ export const portfolioData = [
     slug: "nu",
     photos: [],
   },
+  {
+    id: 21,
+    image: "/images/projects/carlosgardel.png",
+    title: "Dist. Carlos Gardel",
+    subtitle: "Distribuidora Carlos Gardel",
+    url: "",
+    slug: "carlos-gardel",
+    photos: [],
+  },
 ];

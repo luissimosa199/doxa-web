@@ -8,8 +8,8 @@ export const clientsData = [
   {
     id: 2,
     url: "#",
-    image: "/images/clients/pizzeria.jpg",
-    alt: "pizzeria el conde logo",
+    image: "/images/clients/asistenteai.png",
+    alt: "asistente ai logo",
   },
   {
     id: 3,
@@ -45,30 +45,36 @@ export const clientsData = [
     id: 8,
     url: "#",
     image: "/images/clients/bosques.png",
-    alt: "logo",
+    alt: "bosques srl logo",
   },
   {
     id: 9,
     url: "#",
     image: "/images/clients/beconnected.png",
-    alt: "logo",
+    alt: "beconnected logo",
   },
   {
     id: 10,
     url: "#",
     image: "/images/clients/betfriend.png",
-    alt: "logo",
+    alt: "betfrienlogo",
   },
   {
     id: 11,
     url: "#",
     image: "/images/clients/hectorjulian.jpeg",
-    alt: "logo",
+    alt: "hector julian logo",
   },
   {
     id: 12,
     url: "#",
     image: "/images/clients/religa.png",
-    alt: "logo",
+    alt: "religa logo",
+  },
+  {
+    id: 12,
+    url: "#",
+    image: "/images/clients/carlosgardel.png",
+    alt: "carlos gardel logo",
   },
 ];
