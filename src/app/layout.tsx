@@ -9,10 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Faulix Software",
   description: "Soluciones digitales",
-};
-
-export const metadata = {
-  metadataBase: new URL('https://faulix.com'),
+  metadataBase: new URL("https://faulix.com"),
 };
 
 export default function RootLayout({
