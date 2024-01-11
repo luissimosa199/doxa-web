@@ -191,7 +191,7 @@ export const portfolioData = [
   },
   {
     id: 21,
-    image: "/images/projects/carlosgardel.png",
+    image: "/images/projects/carlosgardenal.png",
     title: "Dist. Carlos Gardenal",
     subtitle: "Distribuidora Carlos Gardenal",
     url: "",

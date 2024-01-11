@@ -26,7 +26,7 @@ export const clientsData = [
   {
     id: 5,
     url: "#",
-    image: "/images/clients/carlosgardel.png",
+    image: "/images/clients/carlosgardenal.png",
     alt: "distribuidora carlos gardel",
   },
   {
