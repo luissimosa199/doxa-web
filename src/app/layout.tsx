@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: "Soluciones digitales",
 };
 
+export const metadata = {
+  metadataBase: new URL('https://faulix.com'),
+};
+
 export default function RootLayout({
   children,
 }: {
