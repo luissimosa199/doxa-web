@@ -45,3 +45,21 @@ export async function PUT(req: Request) {
     return Response.json({ error: "Failed to update userAgent" });
   }
 }
+
+export async function GET(req: Request, res: Response) {
+  try {
+    await dbConnect();
+    const userAgentData = await AgencyUserAgentModel.find();
+    const users = await AgencyUserAgentModel.find({
+      user_agent_id: { $exists: true },
+    }).select("email user_agent_id");
+
+    return Response.json({
+      userAgentData,
+      users,
+    });
+  } catch (error) {
+    console.error("Error updating UserAgent:", error);
+    Response.json({ error: "Failed to retrieve userAgent data" });
+  }
+}
