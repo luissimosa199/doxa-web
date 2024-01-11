@@ -23,12 +23,12 @@ export const clientsData = [
     image: "/images/clients/chatgpt.jpg",
     alt: "chat gpt logo",
   },
-  // {
-  //   id: 5,
-  //   url: "#",
-  //   image: "/images/clients/twilio.png",
-  //   alt: "twilio logo",
-  // },
+  {
+    id: 5,
+    url: "#",
+    image: "/images/clients/carlosgardel.png",
+    alt: "distribuidora carlos gardel",
+  },
   {
     id: 6,
     url: "#",
